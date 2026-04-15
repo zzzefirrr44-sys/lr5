@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Завдання 3</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.card {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    padding: 20px 0;
+}
+
+.green { background: #1abc9c; }
+.orange { background: #f39c12; }
+.red { background: #c0392b; }
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.plan {
+    font-size: 18px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn.green { background: #1abc9c; }
+.btn.orange { background: #f39c12; }
+.btn.red { background: #c0392b; }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="container clearfix">
+
+    <!-- Tiny -->
+    <div class="card">
+        <div class="header green">
+            <div class="price">€ 15/mo</div>
+            <div class="plan">Tiny</div>
+        </div>
+        <table class="table">
+            <tr><td>Unlimited Email Addresses</td></tr>
+            <tr><td>50GB Disk Space</td></tr>
+            <tr><td>Unlimited MySQL Databases</td></tr>
+            <tr><td>Unlimited Domains</td></tr>
+            <tr><td>Free Billing Systems</td></tr>
+        </table>
+        <a href="#" class="btn green">SIGN UP</a>
+    </div>
+
+    <!-- Small -->
+    <div class="card">
+        <div class="header orange">
+            <div class="price">€ 29/mo</div>
+            <div class="plan">Small</div>
+        </div>
+        <table class="table">
+            <tr><td>Unlimited Email Addresses</td></tr>
+            <tr><td>80GB Disk Space</td></tr>
+            <tr><td>Unlimited MySQL Databases</td></tr>
+            <tr><td>Unlimited Domains</td></tr>
+            <tr><td>Free Billing Systems</td></tr>
+        </table>
+        <a href="#" class="btn orange">SIGN UP</a>
+    </div>
+
+    <!-- Medium -->
+    <div class="card">
+        <div class="header red">
+            <div class="price">€ 69/mo</div>
+            <div class="plan">Medium</div>
+        </div>
+        <table class="table">
+            <tr><td>Unlimited Email Addresses</td></tr>
+            <tr><td>120GB Disk Space</td></tr>
+            <tr><td>Unlimited MySQL Databases</td></tr>
+            <tr><td>Unlimited Domains</td></tr>
+            <tr><td>Free Billing Systems</td></tr>
+        </table>
+        <a href="#" class="btn red">SIGN UP</a>
+    </div>
+
+</div>
+
+</body>
+</html>
